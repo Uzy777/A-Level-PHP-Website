@@ -1,0 +1,95 @@
+/* Imports some custom fonts so i can use them on the website */
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Nunito&family=Poppins&display=swap");
+
+/* The custom font that i have already imported */
+.font-poppins {
+font-family: "Poppins", cursive;
+}
+
+/* Used for the styling of the background image within the customer register and login page */
+#register, #login-form {
+padding: 5% 0;
+background: url("../assets/register-login/background.png") no-repeat;
+background-size: cover;
+}
+
+/* Some padding to the login form of the page */
+#login-form {
+padding: 10% 0;
+}
+
+/* Used for the section where the camera image */
+#register .upload-profile-image {
+position: relative;
+width: 10%;
+margin-left: auto;
+margin-right: auto;
+transition: filter .8s ease;
+}
+
+/* The section where the camera image is will glow when the user hovers over it so they become aware that they can interact with it */
+#register .upload-profile-image:hover {
+filter: drop-shadow(1px 1px 22px #7584bb);
+}
+
+/* This section is used for when the user interacts with the camera and upload their own image */
+#upload-profile {
+position: absolute;
+top: 0;
+z-index: 10;
+width: 200px;
+margin-top: 0px;
+opacity: 0;
+}
+
+/* The button that allows the user to upload their image is made hidden but still can be interacted with */
+#upload-profile::-webkit-file-upload-button {
+visibility: hidden;
+}
+
+/* Used for the section of the profile within the customer register/login */
+#upload-profile::before {
+content: '';
+display: inline-block;
+width: 200px;
+height: 200px;
+cursor: pointer;
+border-radius: 50%;
+}
+
+/* Styling to multiple aspects of the page */
+#register .upload-profile-image .camera-icon {
+position: absolute;
+top: 70px;
+width: 60px !important;
+filter: invert(30%) !important;
+}
+
+/* Additional styling to multiple aspects of the page but now including when the user hovers over the camera */
+#register .upload-profile-image:hover .camera-icon {
+filter: invert(100%) !important;
+}
+
+/* Used to determine each text box where the user types in their details so it can be added to the database in the correct fields */
+#reg-form input[type='text'],
+#reg-form input[type='email'],
+#reg-form input[type='password'],
+#log-form input[type='text'],
+#log-form input[type='email'],
+#log-form input[type='password'] {
+border: none;
+border-radius: unset;
+border-bottom: 1px solid var(--color-border);
+font-family: var(--font-poppins);
+}
+
+/* Used to determine each text box where the user types in their details so it can be added to the database in the correct fields */
+#reg-form input[type='text'],
+#reg-form input[type='email'],
+#reg-form input[type='password'],
+#log-form input[type='text'],
+#log-form input[type='email'],
+#log-form input[type='password'] {
+outline: none;
+box-shadow: none;
+}
