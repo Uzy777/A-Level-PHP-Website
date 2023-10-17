@@ -1,0 +1,110 @@
+/* Imports some custom fonts so i can use them on the website */
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Nunito&family=Poppins&display=swap");
+
+/* Global classes */
+button, button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* The custom font that i have already imported */
+.font-poppins {
+  font-family: "Poppins", cursive;
+}
+
+/* Giving a class for a font size of 12px */
+.font-size-12 {
+  font-size: 12px;
+}
+
+/* Giving a class for a font size of 14px */
+.font-size-14 {
+  font-size: 14px;
+}
+
+/* Giving a class for a font size of 16px */
+.font-size-16 {
+  font-size: 16px;
+}
+
+/* Giving a class for a font size of 20px */
+.font-size-20 {
+  font-size: 20px;
+}
+
+/* Classes for specific different colours for the system */
+.color-primary {
+  color: #2e1aaf;
+}
+
+/* Classes for specific different colours for the system */
+.color-primary-bg {
+  background: #2e1aaf;
+}
+
+/* Classes for specific different colours for the system */
+.color-second {
+  color: #432CD8;
+}
+
+/* Classes for specific different colours for the system */
+.color-second-bg {
+  background: #432CD8;
+}
+
+/* Classes for specific different colours for the system */
+.color-yellow {
+  color: #FFD289;
+}
+
+/* Classes for specific different colours for the system */
+.color-yellow-bg {
+  background: #FFD289;
+}
+
+/* This section is used for the implementation of the owl carousel and the top sale section of the products*/
+#top-sale .owl-carousel .item .product a {
+  overflow: hidden;
+}
+
+#top-sale .owl-carousel .item .product img {
+  transition: transform 0.5s ease;
+}
+
+#top-sale .owl-carousel .item .product img:hover {
+  transform: scale(1.1);
+}
+
+#top-sale .owl-carousel .owl-nav button {
+  position: absolute;
+  top: 30%;
+  outline: none;
+}
+
+#top-sale .owl-carousel .owl-nav button.owl-prev {
+  left: 0;
+}
+
+#top-sale .owl-carousel .owl-nav button.owl-prev span {
+  font-size: 35px;
+  color: #2e1aaf;
+  margin-left: -4rem;
+  padding: 1rem;
+}
+
+#top-sale .owl-carousel .owl-nav button.owl-next {
+  right: 0;
+}
+
+#top-sale .owl-carousel .owl-nav button.owl-next span {
+  font-size: 35px;
+  color: #2e1aaf;
+  margin-right: -4rem;
+  padding: 1rem;
+}
+
+/* Used for displaying all of the products within the system */
+#all-products .grid .grid-item {
+  margin-right: 1.2rem;
+  margin-top: 1rem;
+}

@@ -1,0 +1,40 @@
+/* Scrolling behaviour within the section of the product management */
+html {
+  scroll-behavior: smooth;
+}
+
+/* The main section of the product management page */
+body {
+  background: #2e1aaf;
+  background: -webkit-linear-gradient(to right, #2e1aaf, #432CD8, #2d1ca1);
+  background: linear-gradient(to right, #2e1aaf, #432CD8, #2d1ca1);
+}
+
+/* Changing the margin and padding of the button and flex */
+.d-flex button{
+    margin: 1.5em 0.5em;
+    padding: 0.3em 1.4em;
+}
+
+/* The construction of the overall tables within the product management section of the system */
+table .btnedit{
+    color: lightsalmon;
+    cursor: pointer;
+}
+
+/* Used when telling the user that data was added to the database successfully */
+.success{
+    background-color: lightgreen;
+    padding: 1em;
+}
+
+/* Used when telling the user that data was not added to the database and has given an error */
+.error{
+    background-color: tomato;
+    padding: 1em;
+}
+
+/* The colour of the navbar within the product management page within the system */
+.navbar-brand{
+  color: #2e1aaf;
+}

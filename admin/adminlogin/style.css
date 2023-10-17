@@ -1,0 +1,103 @@
+/* The main section of the styling within the admin/staff section */
+body {
+	background: #2e1aaf;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
+}
+
+/* All of the admin/staff section */
+*{
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+/* The form section of the styling within the admin/staff section */
+form {
+	width: 500px;
+	border: 2px solid #ccc;
+	padding: 30px;
+	background: #fff;
+	border-radius: 15px;
+}
+
+/* The h2 text section of the styling within the admin/staff section */
+h2 {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+/* The input section of the styling within the admin/staff section */
+input {
+	display: block;
+	border: 2px solid #ccc;
+	width: 95%;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 5px;
+}
+
+/* The label section of the styling within the admin/staff section */
+label {
+	color: #888;
+	font-size: 18px;
+	padding: 10px;
+}
+
+/* The button section of the styling within the admin/staff section */
+button {
+	float: right;
+	background: #555;
+	padding: 10px 15px;
+	color: #fff;
+	border-radius: 5px;
+	margin-right: 10px;
+	border: none;
+}
+
+/* The button when the user hovers over it section of the styling within the admin/staff section */
+button:hover{
+	opacity: .7;
+}
+
+/* The error message styling for the admin/staff section*/
+.error {
+   background: #F2DEDE;
+   color: #A94442;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+/* The success message styling for the admin/staff section*/
+.success {
+   background: #D4EDDA;
+   color: #40754C;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+/* The h1 text section of the styling within the admin/staff section */
+h1 {
+	text-align: center;
+	color: #fff;
+}
+
+/* The ca section of the styling within the admin/staff section */
+.ca {
+	font-size: 14px;
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+	color: #444;
+}
+
+/* The ca when the user hovers over it section of the styling within the admin/staff section */
+.ca:hover {
+	text-decoration: underline;
+}
